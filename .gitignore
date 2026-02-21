@@ -1,1 +1,6 @@
 temp/
+public/
+resources/_gen/
+.hugo_build.lock
+.context/
+content/posts/
