@@ -2,6 +2,7 @@ baseURL = 'https://rzodkiewiczmichal.github.io/'
 languageCode = 'en-us'
 title = 'Michal Rzodkiewicz'
 theme = 'PaperMod'
+disableKinds = ['taxonomy', 'term', 'section', 'RSS', 'sitemap', 'robotsTXT', '404']
 
 [params]
   description = "Technical notes on Java, patterns, and best practices"
@@ -13,16 +14,6 @@ theme = 'PaperMod'
 [params.homeInfoParams]
   Title = "Java Development Notes"
   Content = "Short articles on Java patterns, best practices, and modern approaches"
-
-[[menu.main]]
-  name = "Archive"
-  url = "/posts/"
-  weight = 1
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
 
 [markup.highlight]
   codeFences = true
